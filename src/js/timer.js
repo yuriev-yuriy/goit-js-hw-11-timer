@@ -13,7 +13,6 @@ const timer = {
     setInterval(() => {
       const currentTime = Date.now();
       const deltaTime = tillNY - currentTime;
-      //   console.log(deltaTime);
       countdownTimer(deltaTime);
     }, 1000);
   },
